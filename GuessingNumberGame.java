@@ -1,12 +1,12 @@
+// Task 1 : Guessing a number.
+
 import java.util.Scanner;
-
 public class GuessingNumberGame {
-
     public static void main(String[] args) {
         int number = (int) (Math.random() * 100) + 1;
 
         Scanner scanner = new Scanner(System.in);
-        int attempts = 10;
+        int attempts = 10;   // Total number of attempts.
         char ch = 'y';
         while (ch != 'n') {
             System.out.println("You have only "+attempts+" number of attempts remaining !!");
