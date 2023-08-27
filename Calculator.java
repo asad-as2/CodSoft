@@ -20,7 +20,7 @@ public class Calculatotr{
     double averagePercentage = (double) totalMarks / n;
 
     char grade;
-    if (averagePerentage >= 90) {
+    if (averagePercentage >= 90) {
       grade = 'A';
     }  else if (averagePercentage >= 80) {
       grade = 'B';
