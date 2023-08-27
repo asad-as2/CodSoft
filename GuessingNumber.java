@@ -38,7 +38,7 @@ public class GuessingNumber{
         System.out.println("Your number of attempts is equal to 10. So, Game is Over");
         System.out.println();
         System.out.println("Enter 'y' to Play Again or 'n' to exit");
-        ch = scanner.next().CharAt(0);
+        ch = scanner.next().charAt(0);
         attempts = 10;
       }
     }
